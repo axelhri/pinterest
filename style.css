@@ -3,11 +3,16 @@
 }
 
 /* nav */
+
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
     padding-bottom: 5px;
     top: -0.5vh;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .barrenav {
@@ -16,7 +21,7 @@ nav {
 }
 
 .img1 {
-    width: 60px;
+    width: 40px; height: 40px;
 }
 
 
@@ -32,6 +37,7 @@ nav {
     font-weight: 500;
 }
 
+
 .ici {
     background-color: black;
     color: white;
@@ -39,7 +45,7 @@ nav {
 }
 
 nav input {
-    width: 67%;
+    width: 82em;
     height: 45px;
     border-radius: 3em;
     border-style: none;
@@ -55,43 +61,20 @@ nav input:hover {
 
 .bdroit {
     border-style: none;
+    width: 50px;
+    height: 4em;
     border-radius: 50%;
-    padding: 2em;
-    background-color: rgba(240, 248, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    gap: 80px;
 }
 
 .bdroit:hover {
     background-color: rgba(0, 0, 0, 0.068);
 }
 
-.ic1 {
-    display: flex;
-    width: 30px;
-    margin-left: 1638px;
-    margin-top: -53px;
+i {
+    color: rgb(97, 97, 97);
 }
-
-.ic2 {
-    display: flex;
-    width: 30px;
-    margin-left: 1702px;
-    margin-top: -36px;
-}
-
-.ic3 {
-    display: flex;
-    width: 30px;
-    margin-left: 1765px;
-    margin-top: -34px;
-}
-
-.ic4 {
-    display: flex;
-    width: 30px;
-    margin-left: 1828px;
-    margin-top: -34px;
-}
-
 
 /* main */
 
@@ -105,21 +88,195 @@ main {
 }
 
 main img {
-    width: 90%;
+    width: 220px;
     border-radius: 15px;
 }
 
 main h1 {
     font-size: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 main p {
     font-size: 15;
+    font-family: "Roboto", sans-serif;
 }
 
 .icmain {
     width: 10%;
     display: flex;
     margin-top: -27px;
-    margin-left: -20px;
+    margin-left: -16px;
 }
+
+.post1 {
+    height: 350px;
+}
+
+.post2 {
+    height: 250px;
+}
+
+.post3 {
+    height: 32 0px;
+}
+
+.bt1 {
+    position: absolute;
+    top: 7%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .tests {
+    position: relative;
+  }
+
+  .tests:hover .enre {
+    visibility: visible;
+}
+
+.tests:hover .downl {
+    visibility: visible;
+}
+
+.tests:hover .more {
+    visibility: visible;
+}
+
+.tests:hover .back {
+    visibility: visible;
+    cursor: zoom-in;
+}
+
+
+  main button {
+    width: 100px;
+    border: 2px solid black;
+  }
+
+.enre {
+    border-style: none;
+    border-radius: 8em;
+    width: 8em;
+    height: 3em;
+    background-color: rgb(218, 65, 65);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+.bt2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  }
+
+  .downl {
+    border-style: none;
+    border-radius: 8em;
+    width: 40px;
+    height: 39px;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+  }
+
+  .bt3 {
+    position: absolute;
+    top: 70%;
+    left: 72%;
+  }
+
+  .more {
+    border-style: none;
+    border-radius: 8em;
+    width: 40px;
+    height: 39px;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+  }
+
+  main i {
+    color: black;
+  }
+
+  .back {
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 220px; height: 350px;
+    border-radius: 15px;
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    visibility: hidden;
+}
+
+.enre:hover {
+    background-color: rgb(177, 56, 56);
+}
+
+.downl:hover {
+    background-color: rgb(145, 143, 143);
+}
+
+.more:hover {
+    background-color: rgb(145, 143, 143);
+}
+
+p, h1:hover {
+    cursor: pointer;
+}
+
+h1 i {
+    color: rgb(97, 97, 97);
+}
+
+h1 i:hover {
+    color: rgb(43, 43, 43);
+}
+
+.popup {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    width: 370px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    z-index: 10;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin-left: 12px;
+}
+
+.popup button {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 350px;
+    height: 30px;
+    background-color: white;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    border-style: none;
+    border-radius: 8px;
+}
+
+.popup button:hover {
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+
+

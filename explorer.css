@@ -1,0 +1,140 @@
+* {
+    margin: 5px;
+}
+
+/* nav */
+
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-bottom: 5px;
+    top: -0.5vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.barrenav {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 40px; height: 40px;
+}
+
+
+.button {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    border-radius: 8em;
+    width: 6em;
+    height: 3em;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.ici {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+nav input {
+    width: 82em;
+    height: 45px;
+    border-radius: 3em;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding-left: 50px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.377);
+}
+
+nav input:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+.bdroit {
+    border-style: none;
+    width: 50px;
+    height: 4em;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 80px;
+}
+
+.bdroit:hover {
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+i {
+    color: rgb(97, 97, 97);
+}
+/* main */
+
+main {
+    padding-top: 7em;
+    margin: auto;
+    width: 65%;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template: 50% 50% / 1fr 1fr 1fr;
+}
+
+.grid img {
+    width: 400px; height: 300px;
+    border-radius: 30px;
+}
+
+.test {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .text2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+        font-family: "Roboto", sans-serif;
+  }
+
+  .grid img:hover {
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+
