@@ -1,0 +1,73 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding-bottom: 5px;
+    top: -0.5vh;
+    z-index: 1;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.barrenav {
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 40px;
+    height: 40px;
+}
+
+
+.button {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    border-radius: 8em;
+    width: 6em;
+    height: 3em;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.ici {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+nav input {
+    width: 82em;
+    height: 45px;
+    border-radius: 3em;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.075);
+    padding-left: 50px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.377);
+}
+
+nav input:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+.bdroit {
+    border-style: none;
+    width: 50px;
+    height: 4em;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    gap: 80px;
+}
+
+.bdroit:hover {
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+i {
+    color: rgb(97, 97, 97);
+}
